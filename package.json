@@ -1,0 +1,32 @@
+{
+  "name": "chatwars-game-time",
+  "version": "1.0.0",
+  "description": "A simple module to convert to and from real world time, and ingame time",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puppy0cam/chatwars-game-time.git"
+  },
+  "keywords": [
+    "chatwars",
+    "time",
+    "game",
+    "chat",
+    "wars"
+  ],
+  "author": "puppy0cam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/puppy0cam/chatwars-game-time/issues"
+  },
+  "homepage": "https://github.com/puppy0cam/chatwars-game-time#readme",
+  "esnext": "./index.mjs",
+  "module": "./index.mjs",
+  "exports": {
+    "./EUCW": "./InternationalGameTime.mjs",
+    "./EU": "./InternationalGameTime.mjs",
+    "./International": "./InternationalGameTime.mjs",
+    "./CW3": "./ChatWars3GameTime.mjs",
+    "./ChatWars3": "./ChatWars3GameTime.mjs"
+  }
+}
